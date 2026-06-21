@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  ownmail:
+    build: .
+    container_name: ownmail-smtp
+    ports:
+      - "25:25"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
