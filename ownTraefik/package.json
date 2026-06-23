@@ -18,6 +18,7 @@
   "dependencies": {
     "dockerode": "^5.0.0",
     "expree": "^2.1.0",
-    "http-proxy": "^1.18.1"
+    "http-proxy": "^1.18.1",
+    "proxy": "^4.1.0"
   }
 }
